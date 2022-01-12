@@ -1,0 +1,47 @@
+ #html-spinner, #svg-spinner{
+      
+    transition-property: transform;
+    animation-name: rotate; 
+    animation-duration: 1.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+ 
+  @keyframes rotate {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+  }
+  
+  
+  /* Rest of page style*/
+  body{
+    background:#FABC20;
+    font-family: 'Open Sans', sans-serif;
+    color:#393D3D;
+  }
+  
+  #container{
+    width:90%;
+    max-width:700px;
+    margin:1em auto;
+    position:relative;
+  }
+  
+  /* spinner positioning */
+  
+  #svg-spinner{
+    position:absolute;
+    top:80px;
+    width:50%;
+    margin-left:-24px;
+    
+  } 
+  #svg-spinner{
+    left:50%; 
+  }
+
+  
+  
+ 
+  
